@@ -22,7 +22,18 @@ html,body{
 /*--------------------------------------*/
 
 /*--WHAT WE DO--*/
-
+.btn-whatwedo{
+    width: 200px;
+    height: 40px;
+}
+.img-whatwedo{
+    margin-right: -20px !important;
+    margin-left: 20px !important;
+}
+.card-whatwedo{
+    width: 280px !important;
+    height: 408px !important;
+}
 /*--------------------------------------*/
 
 /*--STATS DONATION BENEFITS--*/
