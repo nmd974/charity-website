@@ -95,6 +95,7 @@ nav button img{
     padding: 2em 0;
     font-size: 18px;
     line-height: 22px;
+    background: #FBF8F6;
 }
 
 #quick-info p {
@@ -183,8 +184,11 @@ nav button img{
 /*--FOOTER--*/
 footer{
     margin-top: 104px !important;
-    height: 200px !important;
+    height: 200px ;
     background: #272727;
+}
+footer > .content{
+    justify-content: space-between;
 }
 .content1, .content2{
     color: white;
@@ -208,7 +212,9 @@ footer{
 
     /*--------------------------------------*/    
     /*QUICK INFO*/
-
+    #quick-info p {
+        width: 100%;
+    }
     /*--------------------------------------*/
 
 /*--WHAT WE DO--*/
@@ -262,11 +268,30 @@ footer{
 /*--------------------------------------*/
 
     /*--NEWSLETTER--*/
-
+    #newsletter > .container{
+        width:100% !important;
+    }
     /*--------------------------------------*/
 
     /*--FOOTER--*/
+    footer{
+        height: 50% !important;
+    }
+    footer > .content{
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        height: 100%;
+    }
+    .content2{
+        text-align: center;
+    }
+    .content1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
 
+    }
     /*--------------------------------------*/
 }
 
