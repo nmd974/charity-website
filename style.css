@@ -30,6 +30,9 @@ html,body{
 #whatwedo h5 {
     font-size: 18px;
 }
+#whatwedo p {
+    font-size: 16px;
+}
 .img-whatwedo{
     margin-right: -20px !important;
     margin-left: 20px !important;
@@ -42,7 +45,12 @@ html,body{
 /*--------------------------------------*/
 
 /*--STATS DONATION BENEFITS--*/
-
+#statistiques{
+    margin-top: 120px !important;
+    background-color:  #FBF8F6;
+    color: #272727;
+    height: 128px !important;
+}
 /*--------------------------------------*/
 
 /*--GALERIE IMAGE--*/
