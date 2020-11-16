@@ -4,23 +4,102 @@ html,body{
     margin: 0 !important;
     padding: 0 !important;
     font-family: 'Lato', sans-serif;
-    width: 100%;
+    height: 100%;
 }
 [class*="col-"] {
     padding: 0 !important;
 }
 .content{
-    max-width: 940px;
+    width: 940px;
     margin: auto;
 }
-.btn-primary{
-    background:#0E6248 !important;
+
+a {
+    color: white;
+}
+
+.overlay {
+    position: absolute;
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 100%)
+}
+
+.btn-primary {
+    background-color: #0E6248;
     border-color: #0E6248 !important;
 }
+
 /*HERO*/
+
+header {
+    background-image: url('/images/background-header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 2em;
+}
+
+
+nav li a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+#logo {
+    padding: 0 3.8em;
+}
+
+nav button {
+    width: 96px;
+    height: 32px;
+}
+
+nav button img{
+    margin-left: 0.3em;
+}
+
+#jumbotron {
+    position: relative;
+    z-index: 3;
+}
+
+#jumbotron h1 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 40px;
+    margin-bottom: 0.7em;
+}
+
+#jumbotron .btn {
+    font-size: 16px;
+    line-height: 19px;
+}
+
+#jumbotron .button-become {
+    width: 200px;
+    height: 40px;
+    margin-left: -2em;
+    margin-right: 2em;
+}
+
+#jumbotron .button-learn {
+    width: 128px;
+    height: 40px;
+    background-color: rgba(255,255,255,0.85);
+    color: #ffffff;
+}
 
 /*--------------------------------------*/
 /*QUICK INFO*/
+
+#quick-info {
+    padding: 2em 0;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+#quick-info p {
+    width: 800px;
+}
 
 /*--------------------------------------*/
 
@@ -98,17 +177,18 @@ html,body{
 
 /*--------------------------------------*/
 
-@media (max-width: 375px){
+@media (max-width: 360px) {
+
     .content{
-        max-width: 100%;
+        width: 360px;
         margin: auto;
     }
     /*HERO*/
 
-/*--------------------------------------*/    
-/*QUICK INFO*/
+    /*--------------------------------------*/    
+    /*QUICK INFO*/
 
-/*--------------------------------------*/
+    /*--------------------------------------*/
 
 /*--WHAT WE DO--*/
 .btn-whatwedo{
@@ -125,7 +205,7 @@ html,body{
     margin-top: 0px !important;
 }
 
-/*--------------------------------------*/
+    /*--------------------------------------*/
 
 /*--STATS DONATION BENEFITS--*/
 #statistiques{
@@ -136,9 +216,9 @@ html,body{
 }
 /*--------------------------------------*/
 
-/*--GALERIE IMAGE--*/
+    /*--GALERIE IMAGE--*/
 
-/*--------------------------------------*/
+    /*--------------------------------------*/
 
 /*--FORMULAIRE--*/
 .form-group{
@@ -152,7 +232,7 @@ html,body{
     flex-direction: column;
 }
 
-/*--------------------------------------*/
+    /*--------------------------------------*/
 
 /*--BECOME PARTNER--*/
 #reading_ressource > .container{
@@ -160,11 +240,71 @@ html,body{
 }
 /*--------------------------------------*/
 
-/*--NEWSLETTER--*/
+    /*--NEWSLETTER--*/
 
-/*--------------------------------------*/
+    /*--------------------------------------*/
 
-/*--FOOTER--*/
+    /*--FOOTER--*/
 
-/*--------------------------------------*/
+    /*--------------------------------------*/
+}
+
+@media (max-width: 768px) {
+
+    .content{
+        max-width: 768px;
+        margin: auto;
+    }
+
+    /*HERO*/
+
+    .navbar-dark .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+
+    .nav-link {
+        color: white!important;
+    }
+
+    #logo {
+        width: 200px;
+        padding: 0;
+    }
+
+    #jumbotron {
+        margin-top: -14em!important;
+    }
+
+    /*--------------------------------------*/    
+    /*QUICK INFO*/
+
+    /*--------------------------------------*/
+
+    /*--WHAT WE DO--*/
+
+    /*--------------------------------------*/
+
+    /*--STATS DONATION BENEFITS--*/
+
+    /*--------------------------------------*/
+
+    /*--GALERIE IMAGE--*/
+
+    /*--------------------------------------*/
+
+    /*--FORMULAIRE--*/
+
+    /*--------------------------------------*/
+
+    /*--BECOME PARTNER--*/
+
+    /*--------------------------------------*/
+
+    /*--NEWSLETTER--*/
+
+    /*--------------------------------------*/
+
+    /*--FOOTER--*/
+
+    /*--------------------------------------*/
 }
