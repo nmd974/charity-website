@@ -98,10 +98,11 @@ nav button img{
     padding: 2em 0;
     font-size: 18px;
     line-height: 22px;
+    background: #FBF8F6;
 }
 
 #quick-info p {
-    width: 800px;
+    /* width: 800px; */
 }
 
 /*--------------------------------------*/
@@ -111,6 +112,9 @@ nav button img{
     width: 200px;
     height: 40px;
     margin-right: -20px !important;
+}
+#whatwedo{
+    margin-top: 147px !important;
 }
 #whatwedo h5 {
     font-size: 18px;
@@ -187,26 +191,55 @@ nav button img{
     background: #0E6248;
     margin-top: 120px !important;
 }
-.contentNewsletter{
-    margin-top: 69px !important;
+#newsletter > .container{
+    width: 480px !important;
+}
+.texteInvisible{
+    color: #0E6248;
+    font-size: 24px;
+}
+.texteSpecial{
+    font-size: 16px;
+    width: 480px !important;
 }
 /*--------------------------------------*/
 
 /*--FOOTER--*/
+footer{
+    margin-top: 104px !important;
+    height: 200px ;
+    background: #272727;
+}
+footer > .content{
+    justify-content: space-between;
+    height: 100%;
+    background: #272727;
+}
+.content1, .content2{
+    color: white;
+    font-size: 12px;
+    line-height: 18px;
+}
+.content2{
+    width: 173px !important;
+    text-align: right;
+}
 
 /*--------------------------------------*/
 
 @media (max-width: 360px) {
 
     .content{
-        width: 360px;
+        width: 100%;
         margin: auto;
     }
     /*HERO*/
 
     /*--------------------------------------*/    
     /*QUICK INFO*/
-
+    #quick-info p {
+        width: 100%;
+    }
     /*--------------------------------------*/
 
 /*--WHAT WE DO--*/
@@ -260,11 +293,34 @@ nav button img{
 /*--------------------------------------*/
 
     /*--NEWSLETTER--*/
-
+    #newsletter > .container{
+        width:100% !important;
+    }
+    .texteSpecial{
+        width: 100% !important;
+        text-align: center;
+    }
     /*--------------------------------------*/
 
     /*--FOOTER--*/
+    footer{
+        height: 50% !important;
+    }
+    footer > .content{
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        height: 100%;
+    }
+    .content2{
+        text-align: center;
+    }
+    .content1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
 
+    }
     /*--------------------------------------*/
 }
 
