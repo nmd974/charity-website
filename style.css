@@ -168,12 +168,33 @@ nav button img{
     background: #0E6248;
     margin-top: 120px !important;
 }
-.contentNewsletter{
-    margin-top: 69px !important;
+#newsletter > .container{
+    width: 480px !important;
+}
+.texteInvisible{
+    color: #0E6248;
+    font-size: 24px;
+}
+.texteSpecial{
+    font-size: 16px;
 }
 /*--------------------------------------*/
 
 /*--FOOTER--*/
+footer{
+    margin-top: 104px !important;
+    height: 200px !important;
+    background: #272727;
+}
+.content1, .content2{
+    color: white;
+    font-size: 12px;
+    line-height: 18px;
+}
+.content2{
+    width: 173px !important;
+    text-align: right;
+}
 
 /*--------------------------------------*/
 
