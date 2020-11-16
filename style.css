@@ -64,16 +64,28 @@ html,body{
 #formulaire{
     margin-top: 118px !important;
 }
-/*--------------------------------------*/
-
-/*--BECOME PARTNER--*/
-#reading_ressources{
-
+.form-group{
+    flex-direction: row;
+    width: 380px !important;
+}
+.texteFormulaire{
+    width: 440px !important;
+}
+.btnForms{
+    width: 120px !important;
+    height: 40px !important;
 }
 /*--------------------------------------*/
 
-/*--NEWSLETTER--*/
+/*--BECOME PARTNER--*/
 
+/*--------------------------------------*/
+
+/*--NEWSLETTER--*/
+#newsletter{
+    height: 200px !important;
+    background: #0E6248;
+}
 /*--------------------------------------*/
 
 /*--FOOTER--*/
@@ -123,6 +135,16 @@ html,body{
 /*--------------------------------------*/
 
 /*--FORMULAIRE--*/
+.form-group{
+    flex-direction: column;
+    width: 100% !important;
+}
+.texteFormulaire{
+    width: 100% !important;
+}
+#formulaire > .container{
+    flex-direction: column;
+}
 
 /*--------------------------------------*/
 
