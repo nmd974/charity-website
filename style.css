@@ -25,14 +25,19 @@ html,body{
 .btn-whatwedo{
     width: 200px;
     height: 40px;
+    margin-left: 20px !important;
+}
+#whatwedo h5 {
+    font-size: 18px;
 }
 .img-whatwedo{
     margin-right: -20px !important;
     margin-left: 20px !important;
+    margin-top: -20px !important;
 }
 .card-whatwedo{
     width: 280px !important;
-    height: 408px !important;
+    margin-top: 75px !important;
 }
 /*--------------------------------------*/
 
@@ -69,7 +74,11 @@ html,body{
 /*--------------------------------------*/
 
 /*--WHAT WE DO--*/
-
+.img-whatwedo{
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    margin-top: -20px !important;
+}
 /*--------------------------------------*/
 
 /*--STATS DONATION BENEFITS--*/
