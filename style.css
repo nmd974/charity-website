@@ -10,6 +10,10 @@ html,body{
     max-width: 940px;
     margin: auto;
 }
+.btn-primary{
+    background:#0E6248 !important;
+    border-color: #0E6248 !important;
+}
 /*HERO*/
 
 /*--------------------------------------*/
