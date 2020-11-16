@@ -157,13 +157,19 @@ nav button img{
 /*--------------------------------------*/
 
 /*--BECOME PARTNER--*/
-
+#reading_ressource{
+    margin-top: 187px !important;
+}
 /*--------------------------------------*/
 
 /*--NEWSLETTER--*/
 #newsletter{
     height: 200px !important;
     background: #0E6248;
+    margin-top: 120px !important;
+}
+.contentNewsletter{
+    margin-top: 69px !important;
 }
 /*--------------------------------------*/
 
@@ -228,9 +234,11 @@ nav button img{
 
     /*--------------------------------------*/
 
-    /*--BECOME PARTNER--*/
-
-    /*--------------------------------------*/
+/*--BECOME PARTNER--*/
+#reading_ressource > .container{
+    flex-direction: column;
+}
+/*--------------------------------------*/
 
     /*--NEWSLETTER--*/
 
