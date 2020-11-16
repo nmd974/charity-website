@@ -246,6 +246,8 @@ nav button img{
     .content{
         max-width: 768px;
         margin: auto;
+        padding-left: 2em;
+        padding-right: 2em;
     }
 
     /*HERO*/
@@ -269,6 +271,11 @@ nav button img{
 
     /*--------------------------------------*/    
     /*QUICK INFO*/
+
+    #quick-info p {
+        width: 700px;
+        margin: auto;
+    }
 
     /*--------------------------------------*/
 
