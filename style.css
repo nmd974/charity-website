@@ -6,6 +6,9 @@ html,body{
     font-family: 'Lato', sans-serif;
     height: 100%;
 }
+[class*="col-"] {
+    padding: 0 !important;
+}
 .content{
     width: 940px;
     margin: auto;
@@ -22,6 +25,7 @@ a {
 
 .btn-primary {
     background-color: #0E6248;
+    border-color: #0E6248 !important;
 }
 
 /*HERO*/
@@ -100,11 +104,35 @@ nav button img{
 /*--------------------------------------*/
 
 /*--WHAT WE DO--*/
-
+.btn-whatwedo{
+    width: 200px;
+    height: 40px;
+    margin-right: -20px !important;
+}
+#whatwedo h5 {
+    font-size: 18px;
+}
+#whatwedo p {
+    font-size: 16px;
+}
+.img-whatwedo{
+    margin-right: -20px !important;
+    margin-left: 20px !important;
+    margin-top: -20px !important;
+}
+.card-whatwedo{
+    width: 280px !important;
+    margin-top: 75px !important;
+}
 /*--------------------------------------*/
 
 /*--STATS DONATION BENEFITS--*/
-
+#statistiques{
+    margin-top: 120px !important;
+    background-color:  #FBF8F6;
+    color: #272727;
+    height: 128px !important;
+}
 /*--------------------------------------*/
 
 /*--GALERIE IMAGE--*/
@@ -112,7 +140,20 @@ nav button img{
 /*--------------------------------------*/
 
 /*--FORMULAIRE--*/
-
+#formulaire{
+    margin-top: 118px !important;
+}
+.form-group{
+    flex-direction: row;
+    width: 380px !important;
+}
+.texteFormulaire{
+    width: 440px !important;
+}
+.btnForms{
+    width: 120px !important;
+    height: 40px !important;
+}
 /*--------------------------------------*/
 
 /*--BECOME PARTNER--*/
@@ -120,7 +161,10 @@ nav button img{
 /*--------------------------------------*/
 
 /*--NEWSLETTER--*/
-
+#newsletter{
+    height: 200px !important;
+    background: #0E6248;
+}
 /*--------------------------------------*/
 
 /*--FOOTER--*/
@@ -140,19 +184,47 @@ nav button img{
 
     /*--------------------------------------*/
 
-    /*--WHAT WE DO--*/
+/*--WHAT WE DO--*/
+.btn-whatwedo{
+    width: 90%;
+    margin-right: 0px !important;
+}
+.card-whatwedo{
+    width: 100% !important;
+    margin-top: 75px !important;
+}
+.img-whatwedo{
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    margin-top: 0px !important;
+}
 
     /*--------------------------------------*/
 
-    /*--STATS DONATION BENEFITS--*/
-
-    /*--------------------------------------*/
+/*--STATS DONATION BENEFITS--*/
+#statistiques{
+    margin-top: 120px !important;
+    background-color:  #FBF8F6;
+    color: #272727;
+    height: 100% !important;
+}
+/*--------------------------------------*/
 
     /*--GALERIE IMAGE--*/
 
     /*--------------------------------------*/
 
-    /*--FORMULAIRE--*/
+/*--FORMULAIRE--*/
+.form-group{
+    flex-direction: column;
+    width: 100% !important;
+}
+.texteFormulaire{
+    width: 100% !important;
+}
+#formulaire > .container{
+    flex-direction: column;
+}
 
     /*--------------------------------------*/
 
