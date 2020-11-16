@@ -6,6 +6,7 @@ html,body{
     font-family: 'Lato', sans-serif;
     width: 100%;
 }
+
 .content{
     max-width: 940px;
     margin: auto;
@@ -59,14 +60,14 @@ html,body{
 
 /*--FORMULAIRE--*/
 #formulaire{
-    /* height: 340px;
-    width: 938px; */
     margin-top: 118px !important;
 }
 /*--------------------------------------*/
 
 /*--BECOME PARTNER--*/
+#reading_ressources{
 
+}
 /*--------------------------------------*/
 
 /*--NEWSLETTER--*/
@@ -78,6 +79,10 @@ html,body{
 /*--------------------------------------*/
 
 @media (max-width: 375px){
+    .content{
+        max-width: 100%;
+        margin: auto;
+    }
     /*HERO*/
 
 /*--------------------------------------*/    
@@ -86,15 +91,29 @@ html,body{
 /*--------------------------------------*/
 
 /*--WHAT WE DO--*/
+.btn-whatwedo{
+    width: 100%;
+    margin-right: 0px !important;
+}
+.card-whatwedo{
+    width: 100% !important;
+    margin-top: 75px !important;
+}
 .img-whatwedo{
-    margin-right: 0 !important;
-    margin-left: 0 !important;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
     margin-top: -20px !important;
 }
+
 /*--------------------------------------*/
 
 /*--STATS DONATION BENEFITS--*/
-
+#statistiques{
+    margin-top: 120px !important;
+    background-color:  #FBF8F6;
+    color: #272727;
+    height: 100% !important;
+}
 /*--------------------------------------*/
 
 /*--GALERIE IMAGE--*/
