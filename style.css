@@ -1,4 +1,7 @@
+@charset "utf-8";
+
 html,body{
     margin: 0 !important;
     padding: 0 !important;
+    font-family: 'Lato', sans-serif;
 }
