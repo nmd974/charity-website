@@ -99,7 +99,7 @@ nav button img{
 }
 
 #quick-info p {
-    width: 800px;
+    /* width: 800px; */
 }
 
 /*--------------------------------------*/
@@ -189,6 +189,7 @@ footer{
 }
 footer > .content{
     justify-content: space-between;
+    height: 100%;
 }
 .content1, .content2{
     color: white;
