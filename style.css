@@ -26,6 +26,9 @@ a {
 .btn-primary {
     background-color: #0E6248;
     border-color: #0E6248 !important;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: bold;
 }
 
 /*HERO*/
@@ -136,7 +139,23 @@ nav button img{
 /*--------------------------------------*/
 
 /*--GALERIE IMAGE--*/
+#gallery {
+    height: 382px;
+}
 
+.gallery {
+    padding: 0 1.9em;
+}
+
+.box-1 {
+    width: 280px;
+    height: 382px;
+}
+
+#canvas-5 {
+    width: 240px;
+    height: 320px;
+}
 /*--------------------------------------*/
 
 /*--FORMULAIRE--*/
