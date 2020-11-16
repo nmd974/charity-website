@@ -58,7 +58,11 @@ html,body{
 /*--------------------------------------*/
 
 /*--FORMULAIRE--*/
-
+#formulaire{
+    /* height: 340px;
+    width: 938px; */
+    margin-top: 118px !important;
+}
 /*--------------------------------------*/
 
 /*--BECOME PARTNER--*/
