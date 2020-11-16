@@ -6,7 +6,9 @@ html,body{
     font-family: 'Lato', sans-serif;
     width: 100%;
 }
-
+[class*="col-"] {
+    padding: 0 !important;
+}
 .content{
     max-width: 940px;
     margin: auto;
@@ -92,7 +94,7 @@ html,body{
 
 /*--WHAT WE DO--*/
 .btn-whatwedo{
-    width: 100%;
+    width: 90%;
     margin-right: 0px !important;
 }
 .card-whatwedo{
@@ -102,7 +104,7 @@ html,body{
 .img-whatwedo{
     margin-right: 0px !important;
     margin-left: 0px !important;
-    margin-top: -20px !important;
+    margin-top: 0px !important;
 }
 
 /*--------------------------------------*/
