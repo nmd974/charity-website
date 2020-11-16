@@ -181,6 +181,7 @@ nav button img{
 }
 .texteSpecial{
     font-size: 16px;
+    width: 480px !important;
 }
 /*--------------------------------------*/
 
@@ -193,6 +194,7 @@ footer{
 footer > .content{
     justify-content: space-between;
     height: 100%;
+    background: #272727;
 }
 .content1, .content2{
     color: white;
@@ -209,7 +211,7 @@ footer > .content{
 @media (max-width: 360px) {
 
     .content{
-        width: 360px;
+        width: 100%;
         margin: auto;
     }
     /*HERO*/
@@ -274,6 +276,10 @@ footer > .content{
     /*--NEWSLETTER--*/
     #newsletter > .container{
         width:100% !important;
+    }
+    .texteSpecial{
+        width: 100% !important;
+        text-align: center;
     }
     /*--------------------------------------*/
 
