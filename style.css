@@ -160,6 +160,97 @@ nav button img{
     width: 240px;
     height: 320px;
 }
+.imgGlobal{
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.img1{
+    position: absolute;
+width: 336px;
+height: 144px;
+left: -230px;
+top: 1825px;
+}
+.img2{
+    position: absolute;
+width: 160px;
+height: 160px;
+left: -134px;
+top: 1995px;
+}
+.img3{
+    position: absolute;
+width: 120px;
+height: 120px;
+left: 142px;
+top: 1839px;
+}
+.img4{
+    position: absolute;
+width: 200px;
+height: 160px;
+left: 62px;
+top: 2005px;
+}
+.img5{
+    position: absolute;
+width: 240px;
+height: 320px;
+left: 298px;
+top: 1849px;
+}
+.img6{
+    position: absolute;
+width: 336px;
+height: 144px;
+left: 584px;
+top: 1825px;
+}
+.img7{
+    position: absolute;
+width: 160px;
+height: 160px;
+left: 571px;
+top: 1995px;
+}
+.img8{
+    position: absolute;
+width: 160px;
+height: 160px;
+left: 760px;
+top: 2015px;
+}
+.img9{
+    position: absolute;
+width: 160px;
+height: 306px;
+left: 956px;
+top: 1871px;
+}
+.img10{
+
+    position: absolute;
+width: 120px;
+height: 120px;
+left: 1152px;
+top: 1835px;
+}
+.img11{
+    position: absolute;
+width: 160px;
+height: 160px;
+left: 1152px;
+top: 2001px;
+}
+.img13{
+    position: absolute;
+width: 160px;
+height: 216px;
+left: 1348px;
+top: 1971px;
+}
 /*--------------------------------------*/
 
 /*--FORMULAIRE--*/
